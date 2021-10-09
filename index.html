@@ -30,6 +30,7 @@
 
     function login(secret) {
       console.log('scret', secret)
+      console.log(sha1)
       const hash = sha1(secret);
       const url = `${hash}/index.html`;
       const alert = document.querySelectorAll('[data-id="alert"]');

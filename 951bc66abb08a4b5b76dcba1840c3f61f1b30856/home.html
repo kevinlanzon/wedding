@@ -42,32 +42,35 @@
       <form action="https://formspree.io/f/xeqvpbba" method="POST">
         <label>
           NAME:
-          <input type="text" name="name">
+          <input type="text" name="Name" required>
         </label>
         <label>
           EMAIL ADDRESS:
-          <input type="email" name="_replyto">
+          <input type="email" name="_replyto" required>
+        </label>
+        <label>
+          CONTACT NUMBER:
+          <input type="text" name="Telephone" required>
         </label>
         <label>
           <fieldset id="fs-frm-selects">
             <label for="timely">CAN YOU JOIN US?</label>
-            <select name="timely" id="timely" required="">
-              <option value="Choose" selected="" disabled="">Choose</option>
-              <option value="1">Absolutely yes!</option>
-              <option value="3">Unfortunately no</option>
+            <select name="Can you join us?" id="timely" required>
+              <option value="" selected="" disabled="">Choose</option>
+              <option value="Absolutely yes!">Absolutely yes!</option>
+              <option value="Unfortunately no">Unfortunately no</option>
             </select>
             <label for="timely">CHILDREN ARE VERY WELCOME. WILL YOU BE BRINGING YOURS?</label>
-            <select name="quality" id="quality" required="">
-              <option value="Choose" selected="" disabled="">Choose</option>
-              <option value="1">Sure will</option>
-              <option value="3">Not this time</option>
-              <option value="5">N/A</option>
+            <select name="Will you bring children?" id="quality" required>
+              <option value="" selected="" disabled="">Choose</option>
+              <option value="Sure will">Sure will</option>
+              <option value="Not this time">Not this time</option>
+              <option value="N/A">N/A</option>
             </select>
           </fieldset>
           ADDITIONAL COMMENTS:
-          <textarea name="message"></textarea>
+          <textarea name="Message"></textarea>
         </label>
-        <!-- your other form fields go here -->
       <button type="submit">Send</button>
       </form>
     </div>

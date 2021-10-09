@@ -2,6 +2,7 @@ const button = document.querySelectorAll('[data-id="button"]');
 const password = document.querySelectorAll('[data-id="password"]');
 
 const login = (secret) => {
+  secret = secret.toLowerCase();
   const hash = sha1(secret);
   const url = `${hash}/home.html`;
   const alert = document.querySelectorAll('[data-id="alert"]');

@@ -28,6 +28,7 @@
     const password = document.querySelectorAll('[data-id="password"]')
 
     function login(secret) {
+      console.log('scret', secret)
       const hash = sha1(secret);
       const url = `${hash}/index.html`;
       const alert = document.querySelectorAll('[data-id="alert"]');

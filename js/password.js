@@ -3,7 +3,7 @@ const password = document.querySelectorAll('[data-id="password"]');
 
 const login = (secret) => {
   const hash = sha1(secret);
-  const url = `${hash}/index.html`;
+  const url = `${hash}/home.html`;
   const alert = document.querySelectorAll('[data-id="alert"]');
 
   const request = new XMLHttpRequest();

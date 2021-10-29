@@ -96,11 +96,20 @@ select {
   background-color: #e8eeef;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
+  font-family: none;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
   margin: 0 4px 8px 0;
+}
+
+input {
+  font-family: none;
+}
+
+textarea {
+  font-family: none;
 }
 
 button {

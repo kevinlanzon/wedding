@@ -32,6 +32,7 @@ h1 {
 
 p {
   padding: 0 10px 0 10px;
+  line-height: 2rem;
 }
 
 .wrapper {
@@ -47,10 +48,8 @@ p {
 }
 
 .header-text {
+  margin: 0 80px 0 80px;
   text-align: left; 
-  max-width: 36%;
-  margin-left: 48%;
-  margin-top: 65px;
 }
 
 .box2 {

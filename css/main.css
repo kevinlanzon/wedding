@@ -47,7 +47,7 @@ a {
 }
 
 .box1 {
-  margin-bottom: 70px;
+  margin-bottom: 15px;
   grid-column-start: 1;
   grid-column-end: 4;
 }
